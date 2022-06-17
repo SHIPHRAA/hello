@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+   <div>
+    <form>
+        NAME:<input name="name"  type="text">
+        <input type="submit">
+      <H1> FAVORITE DISH</H1>
+      <input type="radio" value="fish" name="dish">fish
+      <input type="radio" value="mutton" name="dish">mutton
+      <input type="radio" value="rice and beef" name="dish">rice and beef 
+      <h2>IS YOUR FAVOURITE COUNTRY?</h2> 
+      <input placeholder="COUNTRY" name="COUNTRY" list="countries">
+      <datalist id="countries">
+        <option value="UGANDA">
+            <option value="KENYA">
+                <option value="USA">
+                    <option value="DEMOCRATIC REPUBLIC OF CONGO"></option>
+                </option>
+            </option>
+        </option>
+      </datalist>
+       <h3>WHICH YEAR WERE YOU BORN </h3>
+       <input name="year" placeholder="year" list="years">
+       <datalist id="years">
+        <option value="2000">
+            <option value="2001">
+                <option value="2002"></option>
+            </option>
+        </option>
+       </datalist>
+    </form>
+   </div> 
+</body>
+</html>
